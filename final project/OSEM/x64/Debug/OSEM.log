@@ -1,0 +1,6 @@
+﻿  OSEM.cpp
+C:\Users\25345\Desktop\final project\OSEM\OSEM.cpp(109,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\25345\Desktop\final project\OSEM\OSEM.cpp(166,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\25345\Desktop\final project\OSEM\OSEM.cpp(202,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\25345\Desktop\final project\OSEM\OSEM.cpp(246,12): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  OSEM.vcxproj -> C:\Users\25345\Desktop\final project\OSEM\x64\Debug\OSEM.exe

@@ -1,0 +1,14 @@
+生成：先生成8*8*8精度范围内的放射源，对每个生成的源，再衍生生成16*16*16范围内的放射源
+
+loss function ： champfer distance
+
+神经网络结构：VIT：康普顿输入—>8*8*8的向量
+		   级联1 康普顿输入+8*8*8向量—> 16*16*16向量
+	          
+
+
+涉及MLP CNN
+
+
+存疑之处：gate中源的生成 可能的格式 interfile DICOM metaimage
+

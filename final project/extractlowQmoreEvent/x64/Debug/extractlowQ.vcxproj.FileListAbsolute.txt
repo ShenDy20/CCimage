@@ -1,0 +1,2 @@
+C:\Users\25345\Desktop\final project\extractlowQ\x64\Debug\extractlowQ.exe
+C:\Users\25345\Desktop\final project\extractlowQmoreEvent\x64\Debug\extractlowQ.exe

@@ -1,0 +1,320 @@
+/gate/source/addSource gammaP0
+/gate/source/gammaP0/gps/particle	gamma
+/gate/source/gammaP0/gps/energytype	Mono
+/gate/source/gammaP0/setActivity	1 MBq
+/gate/source/gammaP0/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP0/gps/type	Volume
+/gate/source/gammaP0/gps/shape	Sphere
+/gate/source/gammaP0/gps/radius	1 mm
+/gate/source/gammaP0/gps/angtype	iso
+/gate/source/gammaP0/gps/mintheta 0. deg
+/gate/source/gammaP0/gps/maxtheta 90. deg
+/gate/source/gammaP0/gps/minphi 0. deg
+/gate/source/gammaP0/gps/maxphi 360. deg
+/gate/source/gammaP0/gps/centre	-2.500000 -12.500000 0 mm
+
+/gate/source/addSource gammaP1
+/gate/source/gammaP1/gps/particle	gamma
+/gate/source/gammaP1/gps/energytype	Mono
+/gate/source/gammaP1/setActivity	1 MBq
+/gate/source/gammaP1/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP1/gps/type	Volume
+/gate/source/gammaP1/gps/shape	Sphere
+/gate/source/gammaP1/gps/radius	1 mm
+/gate/source/gammaP1/gps/angtype	iso
+/gate/source/gammaP1/gps/mintheta 0. deg
+/gate/source/gammaP1/gps/maxtheta 90. deg
+/gate/source/gammaP1/gps/minphi 0. deg
+/gate/source/gammaP1/gps/maxphi 360. deg
+/gate/source/gammaP1/gps/centre	-7.500000 -12.500000 0 mm
+
+/gate/source/addSource gammaP2
+/gate/source/gammaP2/gps/particle	gamma
+/gate/source/gammaP2/gps/energytype	Mono
+/gate/source/gammaP2/setActivity	1 MBq
+/gate/source/gammaP2/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP2/gps/type	Volume
+/gate/source/gammaP2/gps/shape	Sphere
+/gate/source/gammaP2/gps/radius	1 mm
+/gate/source/gammaP2/gps/angtype	iso
+/gate/source/gammaP2/gps/mintheta 0. deg
+/gate/source/gammaP2/gps/maxtheta 90. deg
+/gate/source/gammaP2/gps/minphi 0. deg
+/gate/source/gammaP2/gps/maxphi 360. deg
+/gate/source/gammaP2/gps/centre	-12.500000 -12.500000 0 mm
+
+/gate/source/addSource gammaP3
+/gate/source/gammaP3/gps/particle	gamma
+/gate/source/gammaP3/gps/energytype	Mono
+/gate/source/gammaP3/setActivity	1 MBq
+/gate/source/gammaP3/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP3/gps/type	Volume
+/gate/source/gammaP3/gps/shape	Sphere
+/gate/source/gammaP3/gps/radius	1 mm
+/gate/source/gammaP3/gps/angtype	iso
+/gate/source/gammaP3/gps/mintheta 0. deg
+/gate/source/gammaP3/gps/maxtheta 90. deg
+/gate/source/gammaP3/gps/minphi 0. deg
+/gate/source/gammaP3/gps/maxphi 360. deg
+/gate/source/gammaP3/gps/centre	-7.500000 -17.500000 0 mm
+
+/gate/source/addSource gammaP4
+/gate/source/gammaP4/gps/particle	gamma
+/gate/source/gammaP4/gps/energytype	Mono
+/gate/source/gammaP4/setActivity	1 MBq
+/gate/source/gammaP4/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP4/gps/type	Volume
+/gate/source/gammaP4/gps/shape	Sphere
+/gate/source/gammaP4/gps/radius	1 mm
+/gate/source/gammaP4/gps/angtype	iso
+/gate/source/gammaP4/gps/mintheta 0. deg
+/gate/source/gammaP4/gps/maxtheta 90. deg
+/gate/source/gammaP4/gps/minphi 0. deg
+/gate/source/gammaP4/gps/maxphi 360. deg
+/gate/source/gammaP4/gps/centre	-2.500000 -7.500000 0 mm
+
+/gate/source/addSource gammaP5
+/gate/source/gammaP5/gps/particle	gamma
+/gate/source/gammaP5/gps/energytype	Mono
+/gate/source/gammaP5/setActivity	1 MBq
+/gate/source/gammaP5/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP5/gps/type	Volume
+/gate/source/gammaP5/gps/shape	Sphere
+/gate/source/gammaP5/gps/radius	1 mm
+/gate/source/gammaP5/gps/angtype	iso
+/gate/source/gammaP5/gps/mintheta 0. deg
+/gate/source/gammaP5/gps/maxtheta 90. deg
+/gate/source/gammaP5/gps/minphi 0. deg
+/gate/source/gammaP5/gps/maxphi 360. deg
+/gate/source/gammaP5/gps/centre	-2.500000 -2.500000 0 mm
+
+/gate/source/addSource gammaP6
+/gate/source/gammaP6/gps/particle	gamma
+/gate/source/gammaP6/gps/energytype	Mono
+/gate/source/gammaP6/setActivity	1 MBq
+/gate/source/gammaP6/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP6/gps/type	Volume
+/gate/source/gammaP6/gps/shape	Sphere
+/gate/source/gammaP6/gps/radius	1 mm
+/gate/source/gammaP6/gps/angtype	iso
+/gate/source/gammaP6/gps/mintheta 0. deg
+/gate/source/gammaP6/gps/maxtheta 90. deg
+/gate/source/gammaP6/gps/minphi 0. deg
+/gate/source/gammaP6/gps/maxphi 360. deg
+/gate/source/gammaP6/gps/centre	-7.500000 -7.500000 0 mm
+
+/gate/source/addSource gammaP7
+/gate/source/gammaP7/gps/particle	gamma
+/gate/source/gammaP7/gps/energytype	Mono
+/gate/source/gammaP7/setActivity	1 MBq
+/gate/source/gammaP7/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP7/gps/type	Volume
+/gate/source/gammaP7/gps/shape	Sphere
+/gate/source/gammaP7/gps/radius	1 mm
+/gate/source/gammaP7/gps/angtype	iso
+/gate/source/gammaP7/gps/mintheta 0. deg
+/gate/source/gammaP7/gps/maxtheta 90. deg
+/gate/source/gammaP7/gps/minphi 0. deg
+/gate/source/gammaP7/gps/maxphi 360. deg
+/gate/source/gammaP7/gps/centre	-12.500000 -7.500000 0 mm
+
+/gate/source/addSource gammaP8
+/gate/source/gammaP8/gps/particle	gamma
+/gate/source/gammaP8/gps/energytype	Mono
+/gate/source/gammaP8/setActivity	1 MBq
+/gate/source/gammaP8/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP8/gps/type	Volume
+/gate/source/gammaP8/gps/shape	Sphere
+/gate/source/gammaP8/gps/radius	1 mm
+/gate/source/gammaP8/gps/angtype	iso
+/gate/source/gammaP8/gps/mintheta 0. deg
+/gate/source/gammaP8/gps/maxtheta 90. deg
+/gate/source/gammaP8/gps/minphi 0. deg
+/gate/source/gammaP8/gps/maxphi 360. deg
+/gate/source/gammaP8/gps/centre	-12.500000 -17.500000 0 mm
+
+/gate/source/addSource gammaP9
+/gate/source/gammaP9/gps/particle	gamma
+/gate/source/gammaP9/gps/energytype	Mono
+/gate/source/gammaP9/setActivity	1 MBq
+/gate/source/gammaP9/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP9/gps/type	Volume
+/gate/source/gammaP9/gps/shape	Sphere
+/gate/source/gammaP9/gps/radius	1 mm
+/gate/source/gammaP9/gps/angtype	iso
+/gate/source/gammaP9/gps/mintheta 0. deg
+/gate/source/gammaP9/gps/maxtheta 90. deg
+/gate/source/gammaP9/gps/minphi 0. deg
+/gate/source/gammaP9/gps/maxphi 360. deg
+/gate/source/gammaP9/gps/centre	-7.500000 -22.500000 0 mm
+
+/gate/source/addSource gammaP10
+/gate/source/gammaP10/gps/particle	gamma
+/gate/source/gammaP10/gps/energytype	Mono
+/gate/source/gammaP10/setActivity	1 MBq
+/gate/source/gammaP10/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP10/gps/type	Volume
+/gate/source/gammaP10/gps/shape	Sphere
+/gate/source/gammaP10/gps/radius	1 mm
+/gate/source/gammaP10/gps/angtype	iso
+/gate/source/gammaP10/gps/mintheta 0. deg
+/gate/source/gammaP10/gps/maxtheta 90. deg
+/gate/source/gammaP10/gps/minphi 0. deg
+/gate/source/gammaP10/gps/maxphi 360. deg
+/gate/source/gammaP10/gps/centre	-17.500000 -17.500000 0 mm
+
+/gate/source/addSource gammaP11
+/gate/source/gammaP11/gps/particle	gamma
+/gate/source/gammaP11/gps/energytype	Mono
+/gate/source/gammaP11/setActivity	1 MBq
+/gate/source/gammaP11/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP11/gps/type	Volume
+/gate/source/gammaP11/gps/shape	Sphere
+/gate/source/gammaP11/gps/radius	1 mm
+/gate/source/gammaP11/gps/angtype	iso
+/gate/source/gammaP11/gps/mintheta 0. deg
+/gate/source/gammaP11/gps/maxtheta 90. deg
+/gate/source/gammaP11/gps/minphi 0. deg
+/gate/source/gammaP11/gps/maxphi 360. deg
+/gate/source/gammaP11/gps/centre	-2.500000 -17.500000 0 mm
+
+/gate/source/addSource gammaP12
+/gate/source/gammaP12/gps/particle	gamma
+/gate/source/gammaP12/gps/energytype	Mono
+/gate/source/gammaP12/setActivity	1 MBq
+/gate/source/gammaP12/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP12/gps/type	Volume
+/gate/source/gammaP12/gps/shape	Sphere
+/gate/source/gammaP12/gps/radius	1 mm
+/gate/source/gammaP12/gps/angtype	iso
+/gate/source/gammaP12/gps/mintheta 0. deg
+/gate/source/gammaP12/gps/maxtheta 90. deg
+/gate/source/gammaP12/gps/minphi 0. deg
+/gate/source/gammaP12/gps/maxphi 360. deg
+/gate/source/gammaP12/gps/centre	-12.500000 -2.500000 0 mm
+
+/gate/source/addSource gammaP13
+/gate/source/gammaP13/gps/particle	gamma
+/gate/source/gammaP13/gps/energytype	Mono
+/gate/source/gammaP13/setActivity	1 MBq
+/gate/source/gammaP13/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP13/gps/type	Volume
+/gate/source/gammaP13/gps/shape	Sphere
+/gate/source/gammaP13/gps/radius	1 mm
+/gate/source/gammaP13/gps/angtype	iso
+/gate/source/gammaP13/gps/mintheta 0. deg
+/gate/source/gammaP13/gps/maxtheta 90. deg
+/gate/source/gammaP13/gps/minphi 0. deg
+/gate/source/gammaP13/gps/maxphi 360. deg
+/gate/source/gammaP13/gps/centre	-2.500000 -22.500000 0 mm
+
+/gate/source/addSource gammaP14
+/gate/source/gammaP14/gps/particle	gamma
+/gate/source/gammaP14/gps/energytype	Mono
+/gate/source/gammaP14/setActivity	1 MBq
+/gate/source/gammaP14/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP14/gps/type	Volume
+/gate/source/gammaP14/gps/shape	Sphere
+/gate/source/gammaP14/gps/radius	1 mm
+/gate/source/gammaP14/gps/angtype	iso
+/gate/source/gammaP14/gps/mintheta 0. deg
+/gate/source/gammaP14/gps/maxtheta 90. deg
+/gate/source/gammaP14/gps/minphi 0. deg
+/gate/source/gammaP14/gps/maxphi 360. deg
+/gate/source/gammaP14/gps/centre	-12.500000 -22.500000 0 mm
+
+/gate/source/addSource gammaP15
+/gate/source/gammaP15/gps/particle	gamma
+/gate/source/gammaP15/gps/energytype	Mono
+/gate/source/gammaP15/setActivity	1 MBq
+/gate/source/gammaP15/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP15/gps/type	Volume
+/gate/source/gammaP15/gps/shape	Sphere
+/gate/source/gammaP15/gps/radius	1 mm
+/gate/source/gammaP15/gps/angtype	iso
+/gate/source/gammaP15/gps/mintheta 0. deg
+/gate/source/gammaP15/gps/maxtheta 90. deg
+/gate/source/gammaP15/gps/minphi 0. deg
+/gate/source/gammaP15/gps/maxphi 360. deg
+/gate/source/gammaP15/gps/centre	2.500000 -22.500000 0 mm
+
+/gate/source/addSource gammaP16
+/gate/source/gammaP16/gps/particle	gamma
+/gate/source/gammaP16/gps/energytype	Mono
+/gate/source/gammaP16/setActivity	1 MBq
+/gate/source/gammaP16/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP16/gps/type	Volume
+/gate/source/gammaP16/gps/shape	Sphere
+/gate/source/gammaP16/gps/radius	1 mm
+/gate/source/gammaP16/gps/angtype	iso
+/gate/source/gammaP16/gps/mintheta 0. deg
+/gate/source/gammaP16/gps/maxtheta 90. deg
+/gate/source/gammaP16/gps/minphi 0. deg
+/gate/source/gammaP16/gps/maxphi 360. deg
+/gate/source/gammaP16/gps/centre	-17.500000 -22.500000 0 mm
+
+/gate/source/addSource gammaP17
+/gate/source/gammaP17/gps/particle	gamma
+/gate/source/gammaP17/gps/energytype	Mono
+/gate/source/gammaP17/setActivity	1 MBq
+/gate/source/gammaP17/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP17/gps/type	Volume
+/gate/source/gammaP17/gps/shape	Sphere
+/gate/source/gammaP17/gps/radius	1 mm
+/gate/source/gammaP17/gps/angtype	iso
+/gate/source/gammaP17/gps/mintheta 0. deg
+/gate/source/gammaP17/gps/maxtheta 90. deg
+/gate/source/gammaP17/gps/minphi 0. deg
+/gate/source/gammaP17/gps/maxphi 360. deg
+/gate/source/gammaP17/gps/centre	-17.500000 -12.500000 0 mm
+
+/gate/source/addSource gammaP18
+/gate/source/gammaP18/gps/particle	gamma
+/gate/source/gammaP18/gps/energytype	Mono
+/gate/source/gammaP18/setActivity	1 MBq
+/gate/source/gammaP18/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP18/gps/type	Volume
+/gate/source/gammaP18/gps/shape	Sphere
+/gate/source/gammaP18/gps/radius	1 mm
+/gate/source/gammaP18/gps/angtype	iso
+/gate/source/gammaP18/gps/mintheta 0. deg
+/gate/source/gammaP18/gps/maxtheta 90. deg
+/gate/source/gammaP18/gps/minphi 0. deg
+/gate/source/gammaP18/gps/maxphi 360. deg
+/gate/source/gammaP18/gps/centre	2.500000 -12.500000 0 mm
+
+/gate/source/addSource gammaP19
+/gate/source/gammaP19/gps/particle	gamma
+/gate/source/gammaP19/gps/energytype	Mono
+/gate/source/gammaP19/setActivity	1 MBq
+/gate/source/gammaP19/gps/monoenergy	59.5 keV
+
+/gate/source/gammaP19/gps/type	Volume
+/gate/source/gammaP19/gps/shape	Sphere
+/gate/source/gammaP19/gps/radius	1 mm
+/gate/source/gammaP19/gps/angtype	iso
+/gate/source/gammaP19/gps/mintheta 0. deg
+/gate/source/gammaP19/gps/maxtheta 90. deg
+/gate/source/gammaP19/gps/minphi 0. deg
+/gate/source/gammaP19/gps/maxphi 360. deg
+/gate/source/gammaP19/gps/centre	-27.500000 -27.500000 0 mm
+

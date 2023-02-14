@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shapegene", "shapegene\shapegene.vcxproj", "{CF576F18-5674-4653-8CB4-9B19E430A000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF576F18-5674-4653-8CB4-9B19E430A000}.Debug|x64.ActiveCfg = Debug|x64
+		{CF576F18-5674-4653-8CB4-9B19E430A000}.Debug|x64.Build.0 = Debug|x64
+		{CF576F18-5674-4653-8CB4-9B19E430A000}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF576F18-5674-4653-8CB4-9B19E430A000}.Debug|x86.Build.0 = Debug|Win32
+		{CF576F18-5674-4653-8CB4-9B19E430A000}.Release|x64.ActiveCfg = Release|x64
+		{CF576F18-5674-4653-8CB4-9B19E430A000}.Release|x64.Build.0 = Release|x64
+		{CF576F18-5674-4653-8CB4-9B19E430A000}.Release|x86.ActiveCfg = Release|Win32
+		{CF576F18-5674-4653-8CB4-9B19E430A000}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CB2D1EA-655D-4318-AB57-DBD4FFB32B41}
+	EndGlobalSection
+EndGlobal

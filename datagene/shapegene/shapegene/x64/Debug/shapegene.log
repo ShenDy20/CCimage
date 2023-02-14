@@ -1,0 +1,3 @@
+﻿  shapegene.cpp
+C:\Users\25345\Desktop\datagene\shapegene\shapegene\shapegene.cpp(33,32): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  shapegene.vcxproj -> C:\Users\25345\Desktop\datagene\shapegene\x64\Debug\shapegene.exe

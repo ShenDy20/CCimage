@@ -1,0 +1,7 @@
+﻿  extractlowQ.cpp
+C:\Users\25345\Desktop\final project\extractlowQ\extractlowQ.cpp(130,15): warning C4244: “初始化”: 从“_Rep”转换到“unsigned int”，可能丢失数据
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+  extractlowQ.vcxproj -> C:\Users\25345\Desktop\final project\extractlowQ\x64\Debug\extractlowQ.exe

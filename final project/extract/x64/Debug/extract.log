@@ -1,0 +1,17 @@
+﻿  extract.cpp
+C:\Users\25345\Desktop\final project\extract\extract.cpp(53,16): warning C4244: “初始化”: 从“_Rep”转换到“unsigned int”，可能丢失数据
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+C:\Users\25345\Desktop\final project\extract\extract.cpp(120,19): warning C4244: “初始化”: 从“_Rep”转换到“unsigned int”，可能丢失数据
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+C:\Users\25345\Desktop\final project\extract\extract.cpp(167,19): warning C4244: “初始化”: 从“_Rep”转换到“unsigned int”，可能丢失数据
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+  extract.vcxproj -> C:\Users\25345\Desktop\final project\extract\x64\Debug\extract.exe

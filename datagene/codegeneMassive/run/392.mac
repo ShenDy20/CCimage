@@ -1,0 +1,119 @@
+# ==============================
+# == VERBOSITY              ==
+# ==============================
+/control/verbose          0
+/run/verbose              1
+/event/verbose            0
+/tracking/verbose         0
+/gate/application/verbose 0
+/gate/generator/verbose   0
+/gate/random/verbose 0
+
+
+
+# ==============================
+# ==  VISUALIZATION            ==
+# ==============================
+#/vis/open OGLIQt
+#/vis/drawVolume
+
+#/vis/viewer/set/style wireframe
+#/vis/viewer/set/viewpointThetaPhi 60 60
+#/vis/viewer/zoom 4
+
+#/vis/viewer/set/auxiliaryEdge True
+#/vis/scene/add/trajectories
+#/vis/scene/endOfEventAction   accumulate
+#/vis/scene/add/axes
+
+# ==============================
+# == LOAD DATABASE           ==
+# ==============================
+/gate/geometry/setMaterialDatabase    GateMaterials.db
+
+
+
+# ==============================
+# ==   GEOMETRY             ==
+# ==============================
+/control/execute                     myCC_geometry_TPX3.mac
+
+
+
+# ==============================
+# ==   PHANTOM            ==
+# ==============================
+#No Phantom
+
+
+
+# ==============================
+# ==  PHYSICS             ==
+# ==============================
+#Physics List
+/gate/physics/addPhysicsList emstandard_opt4
+
+#cuts
+/control/execute                  cuts.mac
+
+
+
+# ==============================
+#== ACTOR & ACTOR OUTPUT
+# ==============================
+/control/execute        myCC_actor_CCMod_adder.mac
+
+/control/execute        myCC_actor_statistics.mac
+
+
+
+# ==============================
+# == INITIALIZE             ==
+# ==============================
+/gate/run/initialize
+
+
+
+# ==============================
+# == SOURCE                 ==
+# ==============================
+
+/control/execute                   source/myCC_source_pointsource_centered_d2mm_392.mac
+# ==============================
+# == OUTPUT                ==
+# ==============================
+#/gate/application/noGlobalOutput
+# Only output summary, others output in actor
+/gate/output/summary/enable
+/gate/output/summary/setFileName 	output/392.txt
+/gate/output/summary/addCollection 	Singles
+
+#/gate/output/tree/enable
+#/gate/output/tree/addFileName             output/111.txt
+#/gate/output/tree/hits/disable
+#/gate/output/tree/addCollection     Singles
+#/gate/output/tree/addCollection     Coincidences
+
+/gate/actor/addActor     SimulationStatisticActor    stat 
+/gate/actor/stat/save     output/myCCdata_TPX3_stats.txt 
+/gate/actor/stat/saveEveryNSeconds 100 
+
+#====================================================
+#  R A N D O M   E N G I N E  A N D  S E E D
+#====================================================
+/gate/random/setEngineName MersenneTwister
+/gate/random/setEngineSeed auto
+
+
+
+#=====================================================
+#   M E A S U R E M E N T   S E T T I N G S   
+#=====================================================
+/gate/application/setTimeSlice        100  s
+/gate/application/setTimeStart        0.00   s
+/gate/application/setTimeStop        100  s
+
+/gate/application/startDAQ
+
+exit
+

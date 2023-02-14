@@ -1,0 +1,1 @@
+shapegene -> codegene-> gate simulation -> data gene -> extract -> CNN
